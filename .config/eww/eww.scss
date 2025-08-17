@@ -1,0 +1,23 @@
+* {
+  all: unset;
+  background: transparent;
+  font-family: Maple Mono;
+}
+
+window {
+  background: transparent;
+}
+
+.container {
+  background-color: #141216;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d8cab8;
+  color: #d8cab8;
+  border-radius: 12px;
+}
+
+.label {
+  font-size: 24px;
+  font-weight: bold;
+}

@@ -1,0 +1,5 @@
+(defwidget hello-eww []
+	(box :height "100" :width "100" :halign "center" :valign "center" :class "container" 
+		(label :class "label" :text "Hello Eww!")
+	)
+)
