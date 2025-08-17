@@ -6,6 +6,15 @@ Este repositório contém um guia completo para configurar um ambiente Linux min
 
 ---
 
+## Estrutura do Repositório
+
+| Arquivo / Pasta | Descrição                                              |
+| --------------- | ------------------------------------------------------ |
+| `.config/`      | Exemplo de configuração pessoal dos utilitários e apps |
+| `backup.sh`     | Script automatizado de backup                          |
+
+---
+
 ## SWAY (Tiling Window Manager)
 
 ### Instalação
@@ -315,9 +324,27 @@ nvidia-smi
 
 ---
 
+## Backup
+
+### Backup automático:
+
+```bash
+chmod +x backup.sh
+./backup.sh
+```
+
+Processo:
+
+- Copia de arquivos de configurações (Eww, Kitty, Sway, Waybar, Wofi)
+
+---
+
 💡 **Dicas finais:**
 
 - Use `systemctl status` para verificar serviços
 - Faça backup de `/etc/sway/` e `/etc/default/grub`
 - Aproveite o ambiente minimalista e personalizável do Sway + Wayland
 
+---
+
+Faça sua instalação com segurança, estilo e eficiência. Bom ricing!
