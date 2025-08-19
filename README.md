@@ -188,6 +188,39 @@ sudo systemctl mask systemd-networkd.service
 
 ---
 
+## Bluetooth Manager
+
+### Instalação
+
+```bash
+sudo pacman -S bluez bluez-utils
+sudo pacman -S blueman
+```
+
+### Ativar e iniciar serviço
+
+```bash
+sudo systemctl enable --now bluetooth.service
+sudo systemctl start bluetooth.service
+```
+
+### Comandos para conectar via terminal
+
+```bash
+bluetoothctl
+power on
+agent on
+scan on
+```
+
+### Usar interface grafica (opcional):
+
+```bash
+blueman-manager
+```
+
+---
+
 ## PIPEWIRE (Áudio/Multimídia)
 
 ### Instalação
